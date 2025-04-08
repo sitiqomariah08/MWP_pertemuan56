@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 20px;
+    background: #eee;
+}
+
+nav a {
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.welcome {
+    max-width: 500px;
+}
+
+.donut-image {
+    width: 450px;
+    max-width: 100%;
+}
+
+.merk {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sosmed img {
+    width: 30px;
+    height: 30px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.image-container img {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    max-width: 600px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h1,
+.about-content h2 {
+    color: #d2691e;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup h2 {
+    color: #d2691e;
+}
+
+.popup-btn {
+    background: #d2691e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-btn:hover {
+    background: #a0522d;
+}
+
+.close-btn {
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
