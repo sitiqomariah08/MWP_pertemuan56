@@ -1,0 +1,12 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height:100vh;
+}
+
+body {
+    margin: 0;             
+    height: 100vh;        
+}
